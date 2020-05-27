@@ -55,3 +55,4 @@ console.log(obj == obj); //true
 let arr = [1,2,3,4];
 console.log(arr == [1,2,3,4]); //false
 console.log(arr == arr); //true
+
