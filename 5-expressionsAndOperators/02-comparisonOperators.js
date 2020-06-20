@@ -16,7 +16,7 @@ console.log('3' === 3); //false (this one cares about the types)
 
 // != not equal comparison operator (doing the opposite of the equality comparison operator)
 console.log('3' != 4); //true
-console.log('3' != 3); //fale - doesn't care about the type; 3 is 3
+console.log('3' != 3); //false - doesn't care about the type; 3 is 3
 
 // !== strict not equal comparison operator (" ")
 console.log('3' !== 3); //true

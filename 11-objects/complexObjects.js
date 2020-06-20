@@ -7,7 +7,7 @@ let netflix = {
         seasonInfo: {
             episodeInfo: [ //each of these episodes will be an array
                 {episode: 1, episodeName: 'Pilot'},
-                {episode: 2, episodeName: 'MagazineProfile'},
+                {episode: 2, episodeName: 'Magazine Profile'},
                 {episode: 3, episodeName: 'Shots and Salsa'},
                 {episode: 4, episodeName: 'Mannequin'},
                 {episode: 5, episodeName: 'Shoplifter'},
@@ -51,39 +51,39 @@ let netflix = {
 console.log(netflix.season1.seasonInfo.episodeInfo[6].episode, netflix.season1.seasonInfo.episodeInfo[6].episodeName);
 
 
-//JSON = JavaScript Object Notation - everything but booleans and numbers in quotes
-json object:
-varjson= {
-"workbench.colorTheme":"One Dark+ (Sublime)",
-"window.zoomLevel":3,
-"files.exclude": {
-"**/.git":true,
-"**/.DS_Store":true,
-"**/*.js": {
-"when":"$(basename).ts"
-},
-"**/*.js.map": {
-"when":"$(basename)"
-}
-},
-"editor.fontFamily":"Monaco, 'Courier New', monospace",
-"editor.detectIndentation":false,
-"editor.letterSpacing":0,
-"editor.tabSize":2,
-"files.autoSave":"off",
-"editor.wordWrap":"on",
-"extensions.ignoreRecommendations":true,
-"[html]": {},
-"files.associations": {
-"*.html":"html",
-"*.js":"javascriptreact"
-},
-"html.format.indentInnerHtml":true,
-"editor.fontSize":11,
-"liveServer.settings.donotShowInfoMsg":true,
-"liveServer.settings.port":3500,
-"[javascriptreact]": {}
-}
+// //JSON = JavaScript Object Notation - everything but booleans and numbers in quotes
+// json object:
+// varjson= {
+// "workbench.colorTheme":"One Dark+ (Sublime)",
+// "window.zoomLevel":3,
+// "files.exclude": {
+// "**/.git":true,
+// "**/.DS_Store":true,
+// "**/*.js": {
+// "when":"$(basename).ts"
+// },
+// "**/*.js.map": {
+// "when":"$(basename)"
+// }
+// },
+// "editor.fontFamily":"Monaco, 'Courier New', monospace",
+// "editor.detectIndentation":false,
+// "editor.letterSpacing":0,
+// "editor.tabSize":2,
+// "files.autoSave":"off",
+// "editor.wordWrap":"on",
+// "extensions.ignoreRecommendations":true,
+// "[html]": {},
+// "files.associations": {
+// "*.html":"html",
+// "*.js":"javascriptreact"
+// },
+// "html.format.indentInnerHtml":true,
+// "editor.fontSize":11,
+// "liveServer.settings.donotShowInfoMsg":true,
+// "liveServer.settings.port":3500,
+// "[javascriptreact]": {}
+// }
 
 //spacejam object:
 let spaceJam = {
@@ -158,4 +158,4 @@ Object.keys(garden).forEach(key => { //CAPITALIZE THE O IN OBJECT!! IT MATTERS!!
 2. Convince yourself that forEach is using that array
 3. Convince yourself that key is the keys and the garden object
 4. Convince yourself that the code here is only going to run if the key that we're looking at matches water
-5. Make sense of that console.log
+5. Make sense of that console.log */
